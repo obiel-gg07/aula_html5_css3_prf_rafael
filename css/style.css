@@ -1,0 +1,63 @@
+
+body {
+    background: rgba(247, 200, 114, 0.959);
+    margin-left: 30px; 
+}
+
+header{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: slateblue;
+    font-family: Verdana ;
+    margin-top: 20px;
+    
+}
+
+
+p {
+    color: royalblue;
+    font-family: sans-serif ;
+    font-size: 16px;
+    margin-top: 50px;
+   
+}
+
+h2 {
+    color:slateblue;
+    font-family: Verdana;
+    margin-top: 50px;
+}
+    
+h5 {
+
+    color: slateblue;
+    font-family: Verdana;
+}
+
+.img_contato{
+margin-top: 40px;
+margin-bottom: -35px;
+
+}
+
+.numero_tl{
+    margin-left: 20px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text_rodape{
+    color: slateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+

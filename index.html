@@ -3,21 +3,38 @@
     <head>
         <meta charset="utf-8">
         <title>GHCM Group</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
 <body>
 
     <nav>
+      <p>GHCM Group</p>
         <ul>
-            <p>GHCM Group</p>
-            <li>SERVIÇOS</li>
-            <li>CLIENTES</li>
-            <li>TIME</li>
-            <li>CONTATO</li>
+            <li>
+                <a href="#serviços">SERVIÇOS</a>
+            </li>  
+            
+            <li>
+                <a href="#clientes">CLIENTES</a>
+            </li>            
+            
+            <li>
+                <a href="#time">TIME</a>
+            </li>
+
+            <li>
+                <a href="#contato">CONTATO</a>
+            </li>
+
+            <li>
+                <a href="#academia">ACADEMIA</a>
+            </li>
+
         </ul>
     </nav>
 
-    <p>Reforçando conhecimentos em HTML</p>
+    <h1><p>Reforçando conhecimentos em HTML</p></h1>
 
     <header>
         <h1>Minha Página</h1>
@@ -25,28 +42,73 @@
         da sua empresa</p>   
     </header>
 
-    <section id="SERVIÇOS">
+    <section id="serviços">
         <h2>SERVIÇOS</h2>
         <P>Ofereçemos os melhores serviços 
         em desenvolvimento digital</P>
-        <img src="/aula_html5_css3_prf_rafael/img/APPS.jpg" width="300px">
-    </section>
 
-    <section id="CLIENTES">
+        <div>
+        <img src="img/APPS 2.jpg" width="350px">    
+        </div>
+
+        </section>
+
+    <section id="clientes">
         <h2>CLIENTES</h2>
         <p>Qualidade do serviço 100% 
         aprovada pelos Clientes</p>
-        <img src="/aula_html5_css3_prf_rafael/img/CLIENTES.jpg" width="300px">
+
+        <div>
+            <img src="img/cCLIENT 2.jpg" width="350px">
+        </div>
+        
     </section>
 
-    <section id="TIME">
+    <section id="time">
         <h2>TIME</h2>
         <p>Time recheado com os melhores Dev's</p>
-        <img src="/aula_html5_css3_prf_rafael/img/TIME.jpg" width="300px">
+
+        <div>
+            <img src="img/Team 2.jpg" width="350px">
+        </div>
+
     </section>
 
+<section id="contato">
+    <h2>CONTATO</h2>
+    <p>Entre em contato com nossa equipe</p>
+
+    <div>
+        <img src="img/email.png" width="55px" class="img_contato">
+
+        <p><a href="mailto:contato@ghcmgroup.com">contato@ghcmgroup.com</a></p>
+
+    </div>
+
+    <div>
+
+        <img src="img/telefone.png" width="55px" class="img_contato">
+        <p class="numero_tl"><a href="tel:33977777777">(33) 9 7777-7777</a></p>
+
+    </div>
+
+</section>
+
     <footer>
-        <p>Desenvolvido por Gabriel Henrique</p>
+        <p class="text_rodape">Desenvolvido por Gabriel Henrique</p>
+       
+        <section id="academia">
+        
+        <h5 class="text_rodape">Em Aprendizado com:</h5>
+        <div>
+            <a href="https://dio.me/sign-up?ref=4BQ7ZQSUXN" target="_blank">
+            <img src="img/dio.png" width="135px">
+        </a>
+        
+        </div>
+
+
+       </section> 
     </footer>
 
 </body>
